@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.body-wrapper {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #faf8f6;
+}
+
+.logo {
+  width: 149px;
+  height: 27.31px;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #faf8f6;
+  display: flex;
+  justify-content: end;
+  padding: 16px 90px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navlist a {
+  color: #4a556c;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cta {
+  background-color: #20ad96;
+  color: #faf8f6;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+.cta-nav {
+  margin-left: 27px;
+}
+
+.curvy-line {
+  position: absolute;
+  top: 40px;
+  left: 34px;
+}
+
+main {
+  position: relative;
+  padding: 100px 0;
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding-top: 50px;
+  padding-left: 85px;
+  padding-right: 180px;
+}
+
+.left h1::before {
+  content: "Proven strategies backed by science for success.";
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+  top: -16px;
+  color: #4a556c;
+  opacity: 0.4;
+}
+
+.left h1 {
+  position: relative;
+  color: #333461;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  width: 520px;
+}
+
+.left .intro {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  width: 545px;
+}
+
+.right {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.success-rate {
+  position: absolute;
+  top: -45px;
+  left: 100px;
+  padding: 24px;
+  background-color: #fff;
+  display: flex;
+}
+
+.success-rate .target-text .rate {
+  color: #333461;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.introduction {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 150px;
+  background-color: #fff;
+}
+
+.top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.top-left-introduction {
+  width: 50%;
+  height: 100%;
+}
+
+.top-right-introduction {
+  width: 50%;
+  height: 100%;
+}
+
+.bottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.area-of-help {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px;
+}
+.black-curvyline {
+  display: block;
+  position: absolute;
+  top: -16px;
+}
+
+.introduction-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.help-h2 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.top-right-introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 468px;
+}
+
+.top-right-introduction p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.area-of-help-text p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.area-of-help-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.actual-reviews p span {
+  font-weight: bold;
+}
+
+.reviews {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 155px;
+}
+
+.reviews-section {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.reviews-of-people {
+  display: flex;
+  gap: 37px;
+}
+
+.actual-reviews {
+  padding: 48px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  background-color: #fff;
+  width: 30%;
+}
+
+.actual-reviews img {
+  width: 69px;
+  height: 70px;
+}
+
+.actual-reviews p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.72px;
+  width: 70%;
+}
+
+.review-h2 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+  width: 492px;
+}
+
+img.star {
+  width: 100px;
+  height: 20px;
+}
+
+.blog-section {
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  padding: 0 140px;
+}
+
+.actual-blogs {
+  display: flex;
+  gap: 41px;
+}
+
+.blog-headding {
+  color: #333461;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  width: 680px;
+}
+
+.blog {
+  width: 356px;
+  height: 372px;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog-text {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blog-text h3 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.72px;
+}
+
+.blog-text p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.free-guide-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.free-guide-section .free-guide-container {
+  height: 60%;
+  width: 80%;
+  display: flex;
+}
+
+.free-guide-section .free-guide-container .right {
+  height: 100%;
+  width: 50%;
+}
+
+.free-guide-section .free-guide-container .left h2 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+
+.free-guide-container .left .bolder-p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.free-guide-container .left p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.free-guide-section .free-guide-container .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.free-guide-container .right .card {
+  position: relative;
+  width: 446px;
+  height: 100%;
+  background: linear-gradient(#333461, #483d8b, #353565);
+}
+
+.free-guide-section .free-guide-container .left .cta-free-guide {
+  align-self: flex-start;
+}
+
+.free-guide-container .right .card .transform-life {
+  width: 217.618px;
+  height: 244.479px;
+  position: absolute;
+  top: 50.63px;
+  left: 39px;
+  z-index: 5;
+}
+.free-guide-container .right .card .book-reading {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.cta-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.cta-section-wrapper {
+  display: flex;
+  width: 80%;
+  height: 480px;
+  background-color: #faf8f6;
+  margin-bottom: 96px;
+}
+
+.cta-section-wrapper .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cta-section-wrapper .left .texts h2 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.cta-section-wrapper .left .texts p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  color: rgba(74, 85, 108, 0.5);
+}
+
+.cta-section-wrapper .left .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cta-section-wrapper .right {
+  height: 100%;
+  position: relative;
+}
+
+.cta-section-wrapper .left button {
+  align-self: flex-start;
+}
+
+.cta-section-wrapper .right img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.notify {
+  width: 100%;
+  padding: 48px 0;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.notify-container {
+  width: 100%;
+  display: flex;
+  padding: 32px;
+  gap: 32px;
+  align-items: center;
+}
+
+.notify-container .left {
+  width: 50%;
+}
+
+.notify-container .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notify-container .left .text p {
+  color: #4a556c;
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.notify-container .left .text h2 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 38px; /* 126.667% */
+}
+.notify-container .left .text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notify .right .form {
+  gap: 16px;
+  display: flex;
+}
+
+form input {
+  background-color: #ffffff;
+  padding: 14px;
+  border: solid #aaaaaa 1px;
+}
+
+.links {
+  width: 100%;
+  padding: 64px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.links-cointaner {
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  gap: 64px;
+  padding-bottom: 64px;
+  border-bottom: #e4e7ec 1px solid;
+}
+
+.links-cointaner .link-box {
+  width: 30%;
+}
+
+.link-box li {
+  list-style: none;
+  color: rgba(74, 85, 108, 0.5);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.link-box p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 320px;
+}
+.link-box h3 {
+  color: #333461;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px; /* 142.857% */
+  margin-bottom: 16px;
+}
+
+footer {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.madeby a {
+  text-decoration: underline;
+  color: #353565;
+}
+
+.social-media {
+  display: flex;
+  gap: 12px;
+}
